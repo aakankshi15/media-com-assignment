@@ -1,0 +1,70 @@
+nz-header,
+nz-footer {
+  background: #7dbcea;
+  color: #fff;
+  text-align: center;
+}
+nz-content {
+  min-height: 650px !important;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #7dbcea;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.user-name {
+  text-transform: uppercase !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  text-decoration: overline !important;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
